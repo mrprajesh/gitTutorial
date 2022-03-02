@@ -5,10 +5,10 @@ using namespace std;
 int sumOf(int i, int h);
 int main(int argc, char* argv[]){
   std::cout << "Hello Dear Programmer! \n\n --cpp\n";
-  std::cout<< "sum:" << sum(123+456) << '\n';
+  std::cout<< "sum:" << sumOf(123,456) << '\n';
   return 0;
 }
 
-int sumOf(int i, int h){
-  return i+h;
+int sumOf(int i, int j){
+  return i+j;
 }
